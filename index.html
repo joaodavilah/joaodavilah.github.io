@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo João Guilherme</title>
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th/id/OIP.zEP5m7qJVhd4mmUzY4bxdgHaGl?rs=1&pid=ImgDetMain">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+        body {
+            font-family: "K2D", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            background-color: rgb(232, 239, 247);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .curriculo {
+            background-color: rgb(251, 251, 251);
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 800px;
+            max-width: 800px;
+            padding: 30px;
+            box-sizing: border-box;
+            height: 1250px;
+            padding-top: 45px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-top: 0;
+            color: #000000;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #333;
+        }
+
+        .section p {
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        .nome {
+            text-align: center;
+        }
+
+        img {
+            height: 50px;
+            transition: 0.5s;
+        }
+
+        .imgs {
+            text-align: center;
+        }
+
+        img:hover {
+            height: 55px;
+        }
+
+        .contatohab {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .contato,
+        .Habilidade {
+            flex: 1;
+        }
+
+        .contato {
+            margin-bottom: 15px;
+        }
+
+        .Habilidade {
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .contatohab {
+                flex-direction: column;
+            }
+        }
+        @media (max-width: 896px){
+            .curriculo{
+                height: 1700px;
+            }
+        }
+        @media (max-width: 844px){
+            .curriculo{
+                height: 1800px;
+            }
+        }
+
+        #info:hover {
+            color: darkblue;
+        }
+
+        #info {
+            transition: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="curriculo">
+        <h1 class="nome">João Guilherme d'Avila Honório</h1><br>
+
+        <div class="contato section">
+            <div class="imgs">
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-guilherme-d-avila-honorio-167408274/" target="_blank">
+                    <img src="https://static.vecteezy.com/system/resources/previews/023/986/926/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png"
+                        alt="Símbolo LinkedIn">
+                </a>
+            </div>
+        </div>
+
+        <div class="sobre section">
+            <h2>Sobre mim</h2>
+            <p>Ao longo da minha trajetória profissional tive a oportunidade de me desenvolver ao lado de profissionais
+                excepcionais. Atualmente estou na Multilog onde iniciei minha caminhada profissional como Jovem aprendiz
+                na parte operacional, posteriormente tive a oportunidade de ser efetivado como Assistente de inventário
+                I. Durante minha experiência nos dois cargos, desenvolvi conhecimentos em Sistemas WMS, Excel,
+                PowerQuery e PowerBI. Além das competências relacionadas a relatórios e sistemas, também desenvolvi
+                minha comunicação, adaptabilidade e resolução de problemas. Estou sempre em busca de aprender e crescer
+                junto com a equipe e a empresa.</p>
+        </div>
+
+        <div class="experiencia section">
+            <h2>Experiência Profissional</h2>
+            <h3>Aprendiz - Multilog</h3>
+            <p>Desenvolvimento de planilhas funcionais, controle de contratação de terceiros, uso do sistema WMS.</p>
+            <br>
+            <h3>Assistente de inventário I - Multilog</h3>
+            <p>Gestão de entrada e saída, contagens e alterações de estoque via sistema WMS, desenvolvimento de
+                relatórios com PowerQuery e PowerBI.</p>
+        </div>
+
+        <div class="educação section">
+            <h2>Educação</h2>
+            <h3>Ensino Médio - Colégio Salesiano Itajaí</h3>
+            <p>Ensino fundamental e ensino médio completos</p><br>
+            <h3>Curso profissionalizante - Instituto Crescer</h3>
+            <p>Entendimentos referentes ao funcionamento de uma empresa, aulas de Excel, teatro e finanças</p><br>
+            <h3>CST em Sistemas para Internet - Univali</h3>
+            <p>Conhecimentos referentes a algoritmos, banco de dados e diversas linguagens de programação como PHP, SQL
+                e Java</p>
+        </div>
+
+        <div class="contatohab">
+            <div class="Habilidade section">
+                <h2>Habilidades</h2>
+                <p>HTML, CSS, PowerBI, PowerQuery, Excel, Sistemas WMS, Gestão de estoque, Pontualidade, Proatividade, Resolução de problemas</p>
+            </div>
+
+            <div class="contato section">
+                <h2>Contato</h2>
+                <p id="info">Email: guihonorioj3@gmail.com</p>
+                <p id="info">Telefone: (47) 99955-9197</p>
+            </div>
+        </div>        
+    </div>
+</body>
+
+</html>
